@@ -51,24 +51,46 @@ nav ul {
 }
 
 #features {
+    width: 100%;
+  
     background-color: lightgoldenrodyellow;
 }
 
 #features ul {
-
-}
-
-#pricing {
-
-}
-
-.pricing-level {
+    list-style: circle;
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#features ul li {
+list-style: circle;
+height: 50px;
+
+}
+
+/* #pricing {
+display: flex;
+} */
+
+.pricing-levels {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+/* .pricing-level {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; */
 }
 
 footer {
-    color: white;
+    background-color: lightgoldenrodyellow;
+    height: 20vh;
+    width: 100%;
     padding: 4em 2em 2em;
     background-color: #333;
     text-align: center;
